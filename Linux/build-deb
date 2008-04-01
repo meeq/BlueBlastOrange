@@ -1,0 +1,22 @@
+#!/bin/bash
+
+Deb="blue-blast-orange"
+Base="${Deb}/DEBIAN"
+Executable="${Base}/usr/games/blue-blast-orange"
+Resources="${Base}/usr/share/blue-blast-orange/"
+
+echo "Copying Resources into /usr/share..."
+cp -a "settings.ini" "${ResourcesDir}"
+cp -a "images/" "${ResourcesDir}"
+cp -a "sounds/" "${ResourcesDir}"
+
+echo "Building Executable..."
+pushd ../src
+make -f Linux/Makefile
+
+echo "Copying Executable into /usr/games..."
+popd
+cp -a blue-blast-orange "${Executable}"
+
+echo "Slapping Together a Package..."
+dpkg -b "${Deb}"

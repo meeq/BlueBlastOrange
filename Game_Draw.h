@@ -1,0 +1,8 @@
+#include "Engine.h"
+
+#ifndef __GAME__DRAW_H__
+#define __GAME__DRAW_H__
+
+enum GAME_LAYERS { BACKGROUND_LAYER, OVERLAY_LAYER, TEXT_LAYER, PILLS_LAYER, SHIELD_LAYER, CURSOR_LAYER };
+
+#endif

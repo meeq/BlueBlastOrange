@@ -1,0 +1,12 @@
+.DS_Store
+.svn
+# Visual Studio
+Windows/build
+Windows/Release
+# Xcode
+Blue Blast Orange.app
+Macintosh/build
+xcuserdata
+*.pbxuser
+*.mode1
+*.mode1v3
