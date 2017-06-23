@@ -3,131 +3,79 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		002F39FA09D0881F00EBEB88 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002F39F909D0881F00EBEB88 /* SDL.framework */; };
-		002F3A0009D0884600EBEB88 /* SDL.framework in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = 002F39F909D0881F00EBEB88 /* SDL.framework */; };
 		002F3A2E09D0888800EBEB88 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 002F3A2C09D0888800EBEB88 /* SDLMain.m */; };
+		7AC487E41EFCB51300058205 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC487D81EFCB49400058205 /* SDL_image.framework */; };
+		7AC487E51EFCB51300058205 /* SDL_image.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC487D81EFCB49400058205 /* SDL_image.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7AC487E61EFCB51300058205 /* SDL_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC487D91EFCB49400058205 /* SDL_mixer.framework */; };
+		7AC487E71EFCB51300058205 /* SDL_mixer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC487D91EFCB49400058205 /* SDL_mixer.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7AC487E81EFCB51300058205 /* SDL_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC487DA1EFCB49400058205 /* SDL_ttf.framework */; };
+		7AC487E91EFCB51300058205 /* SDL_ttf.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC487DA1EFCB49400058205 /* SDL_ttf.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7AC487EA1EFCB51300058205 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC487DB1EFCB49400058205 /* SDL.framework */; };
+		7AC487EB1EFCB51300058205 /* SDL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC487DB1EFCB49400058205 /* SDL.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		C62F24970BFC2049004D32CB /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62F24930BFC2049004D32CB /* SDL_image.framework */; };
-		C62F24980BFC2049004D32CB /* SDL_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62F24940BFC2049004D32CB /* SDL_ttf.framework */; };
-		C62F249A0BFC2049004D32CB /* SDL_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62F24960BFC2049004D32CB /* SDL_mixer.framework */; };
-		C62F24B10BFC204D004D32CB /* SDL_image.framework in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C62F24930BFC2049004D32CB /* SDL_image.framework */; };
-		C62F24B20BFC204D004D32CB /* SDL_ttf.framework in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C62F24940BFC2049004D32CB /* SDL_ttf.framework */; };
-		C62F24B40BFC204D004D32CB /* SDL_mixer.framework in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C62F24960BFC2049004D32CB /* SDL_mixer.framework */; };
 		C62F256A0BFC267F004D32CB /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C62F25690BFC267F004D32CB /* icon.icns */; };
 		C62F257B0BFC26AB004D32CB /* images in Resources */ = {isa = PBXBuildFile; fileRef = C62F256B0BFC26AB004D32CB /* images */; };
 		C62F25930BFC26BD004D32CB /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = C62F258B0BFC26BD004D32CB /* sounds */; };
 		C62F259C0BFC26D2004D32CB /* settings.ini in Resources */ = {isa = PBXBuildFile; fileRef = C62F259B0BFC26D2004D32CB /* settings.ini */; };
 		C693049D0C052DC000CA7C82 /* Engine_Cursor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C69304880C052DC000CA7C82 /* Engine_Cursor.cpp */; };
-		C693049E0C052DC000CA7C82 /* Engine_Cursor.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C69304890C052DC000CA7C82 /* Engine_Cursor.h */; };
 		C693049F0C052DC000CA7C82 /* Engine_Draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C693048A0C052DC000CA7C82 /* Engine_Draw.cpp */; };
-		C69304A00C052DC000CA7C82 /* Engine_Draw.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C693048B0C052DC000CA7C82 /* Engine_Draw.h */; };
-		C69304A10C052DC000CA7C82 /* Engine_Modes.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C693048C0C052DC000CA7C82 /* Engine_Modes.h */; };
 		C69304A20C052DC000CA7C82 /* Engine_Random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C693048D0C052DC000CA7C82 /* Engine_Random.cpp */; };
-		C69304A30C052DC000CA7C82 /* Engine_Random.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C693048E0C052DC000CA7C82 /* Engine_Random.h */; };
 		C69304A40C052DC000CA7C82 /* Engine_SDL_Anim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C693048F0C052DC000CA7C82 /* Engine_SDL_Anim.cpp */; };
-		C69304A50C052DC000CA7C82 /* Engine_SDL_Anim.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C69304900C052DC000CA7C82 /* Engine_SDL_Anim.h */; };
 		C69304A60C052DC000CA7C82 /* Engine_SDL_Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C69304910C052DC000CA7C82 /* Engine_SDL_Controller.cpp */; };
-		C69304A70C052DC000CA7C82 /* Engine_SDL_Controller.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C69304920C052DC000CA7C82 /* Engine_SDL_Controller.h */; };
 		C69304A80C052DC000CA7C82 /* Engine_SDL_Delta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C69304930C052DC000CA7C82 /* Engine_SDL_Delta.cpp */; };
-		C69304A90C052DC000CA7C82 /* Engine_SDL_Delta.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C69304940C052DC000CA7C82 /* Engine_SDL_Delta.h */; };
 		C69304AA0C052DC000CA7C82 /* Engine_SDL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C69304950C052DC000CA7C82 /* Engine_SDL.cpp */; };
-		C69304AB0C052DC000CA7C82 /* Engine_SDL.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C69304960C052DC000CA7C82 /* Engine_SDL.h */; };
 		C69304AC0C052DC000CA7C82 /* Engine_Shapes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C69304970C052DC000CA7C82 /* Engine_Shapes.cpp */; };
-		C69304AD0C052DC000CA7C82 /* Engine_Shapes.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C69304980C052DC000CA7C82 /* Engine_Shapes.h */; };
 		C69304AE0C052DC000CA7C82 /* Engine_Trig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C69304990C052DC000CA7C82 /* Engine_Trig.cpp */; };
-		C69304AF0C052DC000CA7C82 /* Engine_Trig.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C693049A0C052DC000CA7C82 /* Engine_Trig.h */; };
 		C69304B00C052DC000CA7C82 /* Engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C693049B0C052DC000CA7C82 /* Engine.cpp */; };
-		C69304B10C052DC000CA7C82 /* Engine.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C693049C0C052DC000CA7C82 /* Engine.h */; };
 		C69304C30C052DD000CA7C82 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C69304B30C052DD000CA7C82 /* Main.cpp */; };
 		C69304C40C052DD000CA7C82 /* Game_Modes_BBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C69304B40C052DD000CA7C82 /* Game_Modes_BBO.cpp */; };
-		C69304C50C052DD000CA7C82 /* Game_Modes_BBO.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C69304B50C052DD000CA7C82 /* Game_Modes_BBO.h */; };
 		C69304C60C052DD000CA7C82 /* Game_Modes_Menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C69304B60C052DD000CA7C82 /* Game_Modes_Menu.cpp */; };
-		C69304C70C052DD000CA7C82 /* Game_Modes_Menu.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C69304B70C052DD000CA7C82 /* Game_Modes_Menu.h */; };
 		C69304C80C052DD000CA7C82 /* Game_Modes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C69304B80C052DD000CA7C82 /* Game_Modes.cpp */; };
-		C69304C90C052DD000CA7C82 /* Game_Modes.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C69304B90C052DD000CA7C82 /* Game_Modes.h */; };
-		C69304CA0C052DD000CA7C82 /* Game_Objects_BBOColor.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C69304BA0C052DD000CA7C82 /* Game_Objects_BBOColor.h */; };
 		C69304CC0C052DD000CA7C82 /* Game_Objects_Pill.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C69304BC0C052DD000CA7C82 /* Game_Objects_Pill.cpp */; };
-		C69304CD0C052DD000CA7C82 /* Game_Objects_Pill.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C69304BD0C052DD000CA7C82 /* Game_Objects_Pill.h */; };
 		C69304CE0C052DD000CA7C82 /* Game_Objects_Shield.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C69304BE0C052DD000CA7C82 /* Game_Objects_Shield.cpp */; };
-		C69304CF0C052DD000CA7C82 /* Game_Objects_Shield.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C69304BF0C052DD000CA7C82 /* Game_Objects_Shield.h */; };
-		C69304D00C052DD000CA7C82 /* Game_Objects.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C69304C00C052DD000CA7C82 /* Game_Objects.h */; };
 		C69304D10C052DD000CA7C82 /* Game_Draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C69304C10C052DD000CA7C82 /* Game_Draw.cpp */; };
-		C69304D20C052DD000CA7C82 /* Game_Draw.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C69304C20C052DD000CA7C82 /* Game_Draw.h */; };
-		C693072A0C0542B700CA7C82 /* Game_Defaults.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C69307290C0542B700CA7C82 /* Game_Defaults.h */; };
-		C69307D90C05483E00CA7C82 /* Engine_Prototypes.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C69307D80C05483E00CA7C82 /* Engine_Prototypes.h */; };
-		C69307E00C05489100CA7C82 /* Game_Prototypes.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C69307DF0C05489100CA7C82 /* Game_Prototypes.h */; };
-		C69308040C0549EE00CA7C82 /* Game_SDL_Controller.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C69308030C0549EE00CA7C82 /* Game_SDL_Controller.h */; };
-		C693083D0C0556FF00CA7C82 /* Game_SDL.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C693083C0C0556FF00CA7C82 /* Game_SDL.h */; };
 		C6930B0D0C057BA800CA7C82 /* Game_SDL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6930B0C0C057BA800CA7C82 /* Game_SDL.cpp */; };
 		C6930BAB0C05823D00CA7C82 /* Engine_Modes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6930BAA0C05823D00CA7C82 /* Engine_Modes.cpp */; };
 		C69313920C0737EC00CA7C82 /* Engine_SDL_rotozoom.c in Sources */ = {isa = PBXBuildFile; fileRef = C69313900C0737EC00CA7C82 /* Engine_SDL_rotozoom.c */; };
-		C69313930C0737EC00CA7C82 /* Engine_SDL_rotozoom.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C69313910C0737EC00CA7C82 /* Engine_SDL_rotozoom.h */; };
-		C69943250C0B69C800AB061C /* Game_Objects_Pills.h in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = C69943230C0B69C800AB061C /* Game_Objects_Pills.h */; };
 		C69943260C0B69C800AB061C /* Game_Objects_Pills.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C69943240C0B69C800AB061C /* Game_Objects_Pills.cpp */; };
 		C69948B40C0BD56600AB061C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69948B30C0BD56600AB061C /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		002F39FD09D0883400EBEB88 /* Copy Frameworks into .app bundle */ = {
+		7AC487EC1EFCB51300058205 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				002F3A0009D0884600EBEB88 /* SDL.framework in Copy Frameworks into .app bundle */,
-				C62F24B10BFC204D004D32CB /* SDL_image.framework in Copy Frameworks into .app bundle */,
-				C62F24B20BFC204D004D32CB /* SDL_ttf.framework in Copy Frameworks into .app bundle */,
-				C62F24B40BFC204D004D32CB /* SDL_mixer.framework in Copy Frameworks into .app bundle */,
-				C693049E0C052DC000CA7C82 /* Engine_Cursor.h in Copy Frameworks into .app bundle */,
-				C69304A00C052DC000CA7C82 /* Engine_Draw.h in Copy Frameworks into .app bundle */,
-				C69304A10C052DC000CA7C82 /* Engine_Modes.h in Copy Frameworks into .app bundle */,
-				C69304A30C052DC000CA7C82 /* Engine_Random.h in Copy Frameworks into .app bundle */,
-				C69304A50C052DC000CA7C82 /* Engine_SDL_Anim.h in Copy Frameworks into .app bundle */,
-				C69304A70C052DC000CA7C82 /* Engine_SDL_Controller.h in Copy Frameworks into .app bundle */,
-				C69304A90C052DC000CA7C82 /* Engine_SDL_Delta.h in Copy Frameworks into .app bundle */,
-				C69304AB0C052DC000CA7C82 /* Engine_SDL.h in Copy Frameworks into .app bundle */,
-				C69304AD0C052DC000CA7C82 /* Engine_Shapes.h in Copy Frameworks into .app bundle */,
-				C69304AF0C052DC000CA7C82 /* Engine_Trig.h in Copy Frameworks into .app bundle */,
-				C69304B10C052DC000CA7C82 /* Engine.h in Copy Frameworks into .app bundle */,
-				C69304C50C052DD000CA7C82 /* Game_Modes_BBO.h in Copy Frameworks into .app bundle */,
-				C69304C70C052DD000CA7C82 /* Game_Modes_Menu.h in Copy Frameworks into .app bundle */,
-				C69304C90C052DD000CA7C82 /* Game_Modes.h in Copy Frameworks into .app bundle */,
-				C69304CA0C052DD000CA7C82 /* Game_Objects_BBOColor.h in Copy Frameworks into .app bundle */,
-				C69304CD0C052DD000CA7C82 /* Game_Objects_Pill.h in Copy Frameworks into .app bundle */,
-				C69304CF0C052DD000CA7C82 /* Game_Objects_Shield.h in Copy Frameworks into .app bundle */,
-				C69304D00C052DD000CA7C82 /* Game_Objects.h in Copy Frameworks into .app bundle */,
-				C69304D20C052DD000CA7C82 /* Game_Draw.h in Copy Frameworks into .app bundle */,
-				C693072A0C0542B700CA7C82 /* Game_Defaults.h in Copy Frameworks into .app bundle */,
-				C69307D90C05483E00CA7C82 /* Engine_Prototypes.h in Copy Frameworks into .app bundle */,
-				C69307E00C05489100CA7C82 /* Game_Prototypes.h in Copy Frameworks into .app bundle */,
-				C69308040C0549EE00CA7C82 /* Game_SDL_Controller.h in Copy Frameworks into .app bundle */,
-				C693083D0C0556FF00CA7C82 /* Game_SDL.h in Copy Frameworks into .app bundle */,
-				C69313930C0737EC00CA7C82 /* Engine_SDL_rotozoom.h in Copy Frameworks into .app bundle */,
-				C69943250C0B69C800AB061C /* Game_Objects_Pills.h in Copy Frameworks into .app bundle */,
+				7AC487EB1EFCB51300058205 /* SDL.framework in Embed Frameworks */,
+				7AC487E91EFCB51300058205 /* SDL_ttf.framework in Embed Frameworks */,
+				7AC487E71EFCB51300058205 /* SDL_mixer.framework in Embed Frameworks */,
+				7AC487E51EFCB51300058205 /* SDL_image.framework in Embed Frameworks */,
 			);
-			name = "Copy Frameworks into .app bundle";
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		002F39F909D0881F00EBEB88 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = Frameworks/SDL.framework; sourceTree = SOURCE_ROOT; };
 		002F3A2B09D0888800EBEB88 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = SOURCE_ROOT; };
 		002F3A2C09D0888800EBEB88 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = SOURCE_ROOT; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		7AC487D81EFCB49400058205 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = Frameworks/SDL_image.framework; sourceTree = "<group>"; };
+		7AC487D91EFCB49400058205 /* SDL_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_mixer.framework; path = Frameworks/SDL_mixer.framework; sourceTree = "<group>"; };
+		7AC487DA1EFCB49400058205 /* SDL_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_ttf.framework; path = Frameworks/SDL_ttf.framework; sourceTree = "<group>"; };
+		7AC487DB1EFCB49400058205 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = Frameworks/SDL.framework; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Blue Blast Orange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blue Blast Orange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C62F24930BFC2049004D32CB /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = Frameworks/SDL_image.framework; sourceTree = SOURCE_ROOT; };
-		C62F24940BFC2049004D32CB /* SDL_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_ttf.framework; path = Frameworks/SDL_ttf.framework; sourceTree = SOURCE_ROOT; };
-		C62F24960BFC2049004D32CB /* SDL_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_mixer.framework; path = Frameworks/SDL_mixer.framework; sourceTree = SOURCE_ROOT; };
 		C62F25690BFC267F004D32CB /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = SOURCE_ROOT; };
 		C62F256B0BFC26AB004D32CB /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../Resources/images; sourceTree = SOURCE_ROOT; };
 		C62F258B0BFC26BD004D32CB /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sounds; path = ../Resources/sounds; sourceTree = SOURCE_ROOT; };
@@ -187,11 +135,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				002F39FA09D0881F00EBEB88 /* SDL.framework in Frameworks */,
+				7AC487EA1EFCB51300058205 /* SDL.framework in Frameworks */,
+				7AC487E41EFCB51300058205 /* SDL_image.framework in Frameworks */,
+				7AC487E61EFCB51300058205 /* SDL_mixer.framework in Frameworks */,
+				7AC487E81EFCB51300058205 /* SDL_ttf.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				C62F24970BFC2049004D32CB /* SDL_image.framework in Frameworks */,
-				C62F24980BFC2049004D32CB /* SDL_ttf.framework in Frameworks */,
-				C62F249A0BFC2049004D32CB /* SDL_mixer.framework in Frameworks */,
 				C69948B40C0BD56600AB061C /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,26 +156,26 @@
 			name = "SDL Quartz Wrapper";
 			sourceTree = "<group>";
 		};
-		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+		1058C7A0FEA54F0111CA2CBB /* SDL Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AC487D81EFCB49400058205 /* SDL_image.framework */,
+				7AC487D91EFCB49400058205 /* SDL_mixer.framework */,
+				7AC487DA1EFCB49400058205 /* SDL_ttf.framework */,
+				7AC487DB1EFCB49400058205 /* SDL.framework */,
+			);
+			name = "SDL Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* System Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				C69948B30C0BD56600AB061C /* OpenGL.framework */,
-				C62F24930BFC2049004D32CB /* SDL_image.framework */,
-				C62F24940BFC2049004D32CB /* SDL_ttf.framework */,
-				C62F24960BFC2049004D32CB /* SDL_mixer.framework */,
-				002F39F909D0881F00EBEB88 /* SDL.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
-			);
-			name = "Linked Frameworks";
-			sourceTree = "<group>";
-		};
-		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
 				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
 				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
 			);
-			name = "Other Frameworks";
+			name = "System Frameworks";
 			sourceTree = "<group>";
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
@@ -268,8 +216,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
-				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				1058C7A0FEA54F0111CA2CBB /* SDL Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* System Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -341,10 +289,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Blue Blast Orange" */;
 			buildPhases = (
-				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
-				002F39FD09D0883400EBEB88 /* Copy Frameworks into .app bundle */,
+				8D1107290486CEB800E47090 /* Resources */,
+				7AC487EC1EFCB51300058205 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -361,9 +309,16 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Blue Blast Orange" */;
-			compatibilityVersion = "Xcode 2.4";
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* Blue Blast Orange */;
 			projectDirPath = "";
 			projectRoot = ..;
@@ -436,12 +391,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChristopherBonhage.BlueBlastOrange;
 				PRODUCT_NAME = "Blue Blast Orange";
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
@@ -451,14 +412,16 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChristopherBonhage.BlueBlastOrange;
 				PRODUCT_NAME = "Blue Blast Orange";
 				WRAPPER_EXTENSION = app;
 			};
@@ -467,17 +430,27 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					i386,
-					ppc,
-				);
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					/System/Library/Frameworks,
-					"$(HOME)/Library/Frameworks",
-					/Library/Frameworks,
 					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SRCROOT)/Frameworks",
 				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					/System/Library/Frameworks/OpenGL.framework/Headers,
@@ -487,24 +460,36 @@
 					Frameworks/SDL_mixer.framework/Headers,
 					"$(HEADER_SEARCH_PATHS)",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(HOME)/Library/Frameworks",
-					/Library/Frameworks,
 					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SRCROOT)/Frameworks",
 				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					/System/Library/Frameworks/OpenGL.framework/Headers,
@@ -514,8 +499,9 @@
 					Frameworks/SDL_mixer.framework/Headers,
 					"$(HEADER_SEARCH_PATHS)",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
